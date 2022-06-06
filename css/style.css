@@ -1,0 +1,217 @@
+body{
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+    background-color: #151618;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo h1{
+    color: #fff;
+    font-size: 30px;
+}
+
+.logo span{
+    color: #d40163;
+}
+
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.area-title h3{
+    color: #fff;
+    font-weight: normal;
+}
+
+.area-title h1{
+    color: #fff;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: -16px;
+}
+
+.area-title a{
+    display: inline-block;
+    background-color: #d40163;
+    padding: 15px 60px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.area-title a:hover{
+    background-color: #770038;
+    transition: 0,3s all;
+}
+
+.image1 img{
+    width: 460px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.section-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section-cards h2{
+    color: #fff;
+    font-size: 22px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    background-color: #2c2f37;
+    width: 200px;
+    height: 180px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.card:hover{
+    background-color: #d40163;
+    transition: 0,3s all;
+}
+
+.card img{
+    width: 65px;
+}
+/*barra rosa*/
+
+.section-3{
+    background-color: #d40163;
+    height: 342px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.area-title-2 h1{
+    color: #fff;
+    font-size: 35px;
+}
+
+.area-title-2 h3{
+    color: #fff;
+    margin-top: -26px;
+    font-weight: normal;
+}
+
+.area-title-2 a{
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px 85px;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.image2 img{
+    width: 280px;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+/*LOGIN*/
+
+.meunome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meunome h3{
+    color: #fff;
+}
+
+.area-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+}
+
+.login form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.login input{
+    margin-top: 10px;
+    background-color: white;
+    padding-left: 10px;
+    color: rgb(70, 70, 70);
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+
+}
+
+input::placeholder{
+    color: rgb(70, 70, 70);
+    font-size: 14px;
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: #d40163;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+p{
+    color: #151618;
+}
+
+.login a{
+    color: #d40163;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
